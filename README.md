@@ -1,4 +1,4 @@
-*Projeto de Introdução a Programação Paralela e Distribuída
+Projeto de Introdução a Programação Paralela e Distribuída
 ---
 Integrantes:
 
