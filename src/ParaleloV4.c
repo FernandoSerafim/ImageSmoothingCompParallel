@@ -53,7 +53,7 @@ int main(int argc, char *argv[]) {
         if (!fread(pixels, height * width * sizeof (RGBA), 1, in))
             break;
 
-        #pragma omp parallel private(dx, dy) schedule(static) 
+        #pragma omp parallel for schedule(static) 
         for (y = 0; y < height; y++) {
             for (x = 0; x < width; x++) {
 
